@@ -1,3 +1,5 @@
+package com.hrms.test;
+
 import com.hrms.bean.Department;
 import com.hrms.mapper.DepartmentMapper;
 import org.junit.Test;
@@ -23,6 +25,7 @@ public class DepartmentMapperTest {
         Department department = new Department(null, "黎明3", "测试部");
         int res = departmentMapper.insertDept(department);
         System.out.println(res);
+        System.out.println("123");
     }
 
     @Test
